@@ -4,6 +4,32 @@
     <title>Añadir Comentario</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <style>
+        form {
+    padding: 20px; /* Añade padding alrededor del formulario */
+    margin: 20px auto; /* Centra el formulario y añade margen */
+    width: 90%; /* Ajusta el ancho del formulario */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Opcional: añade una sombra suave para resaltar el formulario */
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: calc(100% - 40px); /* Ajusta el ancho de los campos de texto */
+    padding: 10px; /* Añade padding para hacer más grandes los campos de texto */
+    margin-bottom: 15px; /* Añade margen debajo de cada campo */
+    border: 1px solid #ccc; /* Estilo del borde (opcional) */
+}
+
+input[type="submit"] {
+    padding: 10px 20px; /* Añade padding al botón de enviar */
+    background-color: #4CAF50; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    border: none; /* Remueve el borde del botón */
+    cursor: pointer; /* Cambia el cursor a pointer */
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049; /* Color de fondo del botón al pasar el mouse */
+}
+
         html {
             height: 100%;
         }
