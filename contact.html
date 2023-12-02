@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Añadir Comentario</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        html {
+            height: 100%;
+        }
+        header {
+            background: url("img/Big\ Sur\,\ California\,.png") no-repeat center center; 
+            background-size: cover; 
+            color: white; 
+            text-align: center;
+            padding: 1em 0;
+        }
+        header h1, header nav ul li a {
+            color: white; 
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); 
+        }
+         body {
+            font-family: Roboto, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            min-height: 100%; 
+            
+        }
+        header, footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+footer {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1em 0;
+            margin-top: auto;
+        }
+        audio {
+    margin-top: 40px; 
+    
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Añadir Comentario</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="details.html">Detalles</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Añadir Comentario</h2>
+        <form>
+            <label for="name">Nombre:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Correo electrónico:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="message">Comentario:</label><br>
+            <textarea id="message" name="message"></textarea><br>
+            <input type="submit" value="Enviar">
+        </form>
+        <audio controls>
+            <source src="img/the-final-countdown.mp3" type="audio/mpeg">
+            
+        </audio>
+    </main>
+    <footer>
+        <p>Gracias Por Su Visita.</p>
+    </footer>
+
+</body>
+</html>
